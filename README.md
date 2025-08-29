@@ -3,12 +3,23 @@
 내일배움캠프 iOS 8기 스탠다드반 실습과제 저장소입니다.
 
 ---
-## Stacks 🐈
-### Environment
-<img src="https://img.shields.io/badge/Xcode-1575F9.svg?style=for-the-badge&logo=Xcode&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+## 1-1 실습 과제 
 
-### Development
-<img src="https://img.shields.io/badge/Swift-F05138.svg?style=for-the-badge&logo=swift&logoColor=white">   
+클래스 기본 실습
+
+- Person 이라는 이름의 클래스 만들기
+  - 프로퍼티: name (String), age (Int)
+  - 이니셜라이저: name, age를 초기화
+  - 메서드: talk라는 이름으로 안녕하세요, name, age를 print하는 기능
+
+- 플레이그라운드로 작성하기!
+
+- 인스턴스 여러개 작성하고 여러가지 테스트 다뤄보기
+
+
+
+
+
 
 
 
