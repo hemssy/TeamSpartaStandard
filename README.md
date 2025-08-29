@@ -1,6 +1,6 @@
 # AssignmentCore
 
-내일배움캠프 iOS 8기 스탠다드/코어반 실습과제 저장소입니다.
+내일배움캠프 iOS 8기 스탠다드반 실습과제 저장소입니다.
 
 ---
 ## Stacks 🐈
@@ -9,3 +9,4 @@
 
 ### Development
 <img src="https://img.shields.io/badge/Swift-F05138.svg?style=for-the-badge&logo=swift&logoColor=white">   
+
