@@ -20,7 +20,3 @@ p2.talk()
 
 let p3 = Person(name: "사람3", age: 30)
 p3.talk()
-
-
-
-
