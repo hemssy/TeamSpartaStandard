@@ -35,3 +35,11 @@ passwordButton: passwordLabel 밑에 간격 10 위치, center Label과 맞춤
   
   - backgroundColor : red
 
+
+## 실행화면
+<img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 17 26 30" src="https://github.com/user-attachments/assets/91a0e6a6-6517-402a-8231-55bb1b084026" />
+
+<img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 17 26 44" src="https://github.com/user-attachments/assets/762b7500-d9f0-4f92-91d9-51ed5bc252e0" />
+
+<img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 17 26 55" src="https://github.com/user-attachments/assets/79f3b5dc-9a5d-4a6c-bf93-ff19e9784164" />
+
