@@ -1,4 +1,4 @@
-# TeamStandard
+# TeamSpartaStandard
 
 내일배움캠프 iOS 8기 스탠다드반 실습과제 저장소입니다.
 
@@ -42,4 +42,5 @@ passwordButton: passwordLabel 밑에 간격 10 위치, center Label과 맞춤
 <img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 17 26 44" src="https://github.com/user-attachments/assets/762b7500-d9f0-4f92-91d9-51ed5bc252e0" />
 
 <img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 17 26 55" src="https://github.com/user-attachments/assets/79f3b5dc-9a5d-4a6c-bf93-ff19e9784164" />
+
 
