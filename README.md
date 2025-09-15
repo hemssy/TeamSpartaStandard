@@ -57,8 +57,8 @@
 
 <img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-15 at 10 05 33" src="https://github.com/user-attachments/assets/d416978a-6d5a-4095-9890-6a6e97e7c6d3" />
 
-<img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-15 at 10 06 16" src="https://github.com/user-attachments/assets/220c2841-d067-4527-8509-0727a83e2b14" />
-
 <img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-15 at 10 05 45" src="https://github.com/user-attachments/assets/695733f3-10e4-45c1-9a2f-15571af2a63a" />
 
 <img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-15 at 10 05 59" src="https://github.com/user-attachments/assets/78c83efe-0e0a-4934-b02d-67e6245da3dd" />
+
+<img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-15 at 10 06 16" src="https://github.com/user-attachments/assets/220c2841-d067-4527-8509-0727a83e2b14" />
