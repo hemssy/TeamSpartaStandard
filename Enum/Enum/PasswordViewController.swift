@@ -21,7 +21,7 @@ class PasswordViewController: UIViewController {
         passwordLabel = UILabel()
         passwordLabel.text = ""                  // 처음엔 비워둬서 안보임
         passwordLabel.textAlignment = .center
-        passwordLabel.textColor = .blue          // 성공 텍스트는 파란색으로 함
+        passwordLabel.textColor = .blue
 
         passwordTextField = UITextField()
         passwordTextField.borderStyle = .roundedRect
@@ -48,7 +48,7 @@ class PasswordViewController: UIViewController {
             make.bottom.equalTo(passwordLabel.snp.top).offset(-10)
         }
 
-        // 버튼 제약: 라벨 아래 간격 10, centerX 같음, w100 h50
+        // 버튼 제약: 라벨 아래 간격 10, centerX 같음, 와100 하50
         passwordButton.snp.makeConstraints { make in
             make.centerX.equalTo(passwordLabel.snp.centerX)
             make.top.equalTo(passwordLabel.snp.bottom).offset(10)
@@ -63,9 +63,27 @@ class PasswordViewController: UIViewController {
     // 버튼 액션
     @objc private func tapPasswordButton() {
         let input = (passwordTextField.text ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
-        if input == "password" {
-            passwordLabel.text = "성공"
+        let validator = PasswordValidator() //객체만들어서 PasswordValidator 부르기
+        
+        do {
+            let ok = try validator.validate(with: input)
+            if ok {
+                passwordLabel.text = "성공"
+            }
+        } catch let error as PasswordError {
+            showAlert(message: error.message)
+        } catch {
+            showAlert(message: "오류가 발생했습니다.")
         }
     }
+    
+    // 알림창
+    private func showAlert(message: String) {
+        let alert = UIAlertController(title: "오류", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "확인", style: .default))
+        present(alert, animated: true) //이거 false면 애니메이션 없이 바로 나타남
+    }
+    
 }
+
 
