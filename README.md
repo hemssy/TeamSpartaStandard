@@ -7,9 +7,9 @@
 
 **첫번째 섹션 (배너 섹션)**
   - 그룹
-    - 가로 80%, 세로 160
+    - 가로 80%, 세로 160%
   - 아이템
-    - 가로 100, 세로 100
+    - 가로 100%, 세로 100%
     - 가로 스크롤
     - BannerCell 사용
 
@@ -40,3 +40,4 @@
 
 <img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-24 at 09 49 41" src="https://github.com/user-attachments/assets/5c8a03cf-fffe-4c1a-ac8e-00d06866b3b1" />
 <img width="200" height="500" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-24 at 09 49 51" src="https://github.com/user-attachments/assets/032d64f2-e264-4455-9915-5ecec6d5732a" />
+
