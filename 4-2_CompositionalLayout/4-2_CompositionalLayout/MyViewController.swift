@@ -2,6 +2,8 @@ import UIKit
 import SnapKit
 
 class MyViewController: UIViewController {
+    
+    private let networkService = NetworkService()
 
     
     let bannerItems = ["A", "B", "C", "D", "E"]
@@ -33,6 +35,10 @@ class MyViewController: UIViewController {
         }
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        networkService.fetchUsers()
+    }
     
     private func createLayout() -> UICollectionViewCompositionalLayout {
         return UICollectionViewCompositionalLayout { sectionIndex, _ in
@@ -86,6 +92,7 @@ class MyViewController: UIViewController {
 extension MyViewController: UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
+        
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -109,4 +116,5 @@ extension MyViewController: UICollectionViewDataSource {
         }
     }
 }
+
 
